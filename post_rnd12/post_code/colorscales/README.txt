@@ -1,0 +1,1 @@
+Colormaps exported from Paraview
