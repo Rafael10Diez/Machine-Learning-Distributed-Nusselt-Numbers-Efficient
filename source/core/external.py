@@ -1,6 +1,3 @@
-# Purpose:
-#     Retrieve Functions that belong to the parent interpolation routine
-#     (this code is hosted in a sub-folder of the interpolation directory)
 
 # ------------------------------------------------------------------------
 #                  Generic Libraries
