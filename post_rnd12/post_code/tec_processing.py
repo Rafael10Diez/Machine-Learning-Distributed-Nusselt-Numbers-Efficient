@@ -1,7 +1,3 @@
-# python  /media/rafael/DATA/Dropbox/clean_cache.py
-# python  /media/rafael/DATA/Dropbox/workspace/code/202109_stag_interp_v5/classic_ML_use_Cf_Nu_search_v2/post/post_code/tec_processing.py
-# python  /media/rafael/DATA/Dropbox/workspace/code/202109_stag_interp_v5/classic_ML_use_Cf_Nu_search_v2/post/post_code/gen_pictures_updated.py
-# python  /media/rafael/DATA/Dropbox/clean_cache.py
 
 # ------------------------------------------------------------------------
 #                  Generic Libraries
