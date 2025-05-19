@@ -165,9 +165,6 @@ def fix_keys(x):
     if type(x) in [list,dict]:
         for i in {list: range(len(x)), dict: x}[type(x)]:
             x[i] = fix_keys(x[i])
-    elif type(x) == str:
-        if basename(cloud_folder) in x:
-            x = fix_path(x,cloud_folder)
     return x
 
 def reduce_longest_common(A):
@@ -186,8 +183,6 @@ def reduce_longest_common(A):
 # ------------------------------------------------------------------------
 
 post_output   =  pjoin(dirname(dirname(abspath(__file__))), 'post_output')
-cloud_folder  =  deepdirname(abspath(__file__),7)
-assert ('rafae' in basename(dirname(cloud_folder))) or ('DATA' in basename(dirname(cloud_folder)))
 
 # ------------------------------------------------------------------------
 #                  Scan Folder
