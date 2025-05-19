@@ -3,12 +3,11 @@
 
 
 ./source/core/external.py
-    a) Internal file importing functions from the parent ./all_interp directory.
-        - Imported functions include the HeightFunction, log-file printer, etc.
+    a) General-purpose functions.
 
 
 ./source/core/gather_data.py
-    a) Routines to import data for the interpolated wall forces and heat transfer rates stored in the sub-folders of ./all_interp/data/output.
+    a) Routines to import data for the interpolated wall forces and heat transfer rates stored in the sub-folders of ./orig_data.
 
 
 ./source/core/io_access_ml.py
