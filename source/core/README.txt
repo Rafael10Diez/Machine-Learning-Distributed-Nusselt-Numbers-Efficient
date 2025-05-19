@@ -16,11 +16,10 @@
 
 
 ./source/core/loaders.py
-    a) Functions to create the classical data_loaders observed in Python.
-
+    a) Functions to create the typical `data_loaders` found in PyTorch.
 
 ./source/core/ml_runner.py
     a) Main routine handling the Machine Learning studies. 
-        - Input parameters is read
+        - Input parameters are read
         - A Neural Network architecture is initialized and trained according to the configuration given.
         - The final prediction margins are established.
